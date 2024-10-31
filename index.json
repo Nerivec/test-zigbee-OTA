@@ -7499,15 +7499,5 @@
     "manufacturerCode": 4644,
     "sha512": "345b089dffdf63057757afecd2808a99b8c3c420721117b7ae234153e820bf2a12f8ae993106dda478196248d7db728caaca32320d110c42c365b678546ae181",
     "otaHeaderString": "Encrypted GBL Z3SwitchSoc_sdk676"
-  },
-  {
-    "fileName": "sonoff_router.ota",
-    "fileVersion": 2,
-    "fileSize": 283674,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Aurora/sonoff_router.ota",
-    "imageType": 65534,
-    "manufacturerCode": 4897,
-    "sha512": "92ce21a8f3bac3d1be2cf8ed3ce6f12b03dd22c0b38993eb8fcb4475be0de7811c9e10f6305724b559ed25638c00b4f846d3bb0e77051cc623471769d74e2f92",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
