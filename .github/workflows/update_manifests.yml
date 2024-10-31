@@ -38,7 +38,6 @@ jobs:
                       await updateManifests(github, core, context)
 
             - name: Commit changes on push
-              if: github.event.pull_request.merged == true
               run: |
                   git config --global user.name 'github-actions[bot]'
                   git config --global user.email 'github-actions[bot]@users.noreply.github.com'

@@ -47,7 +47,7 @@ export async function reportOtaPR(github: Octokit, core: typeof CoreApi, context
 
     const prNumber = parseInt(readFileSync(PR_NUMBER_FILENAME, 'utf8'), 10);
 
-    core.info(`Running for pr#${prNumber} for ${workflow_run.html_url}.`);
+    core.info(`Running for pr#${prNumber} for ${workflow_run.html_url}`);
 
     if (workflow_run.conclusion === 'failure') {
         assert(existsSync(PR_ERROR_FILENAME), `Workflow failed but could not find ${PR_ERROR_FILENAME} for ${workflow_run.html_url}`);
