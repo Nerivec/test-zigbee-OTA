@@ -13,18 +13,23 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
+
             - uses: pnpm/action-setup@v4
               with:
                   version: 9
+
             - uses: actions/setup-node@v4
               with:
                   node-version: 20
                   registry-url: https://registry.npmjs.org/
                   cache: pnpm
+
             - name: Install dependencies
               run: pnpm i --frozen-lockfile
+
             - name: Build
               run: pnpm run build
+
             - name: Update manifests
               uses: actions/github-script@v7
               with:
@@ -32,6 +37,7 @@ jobs:
                       const {updateManifests} = await import("${{ github.workspace }}/dist/ghw_update_manifests.js")
 
                       await updateManifests(github, core, context)
+
             - name: Commit changes on push
               if: github.event.pull_request.merged == true
               run: |
