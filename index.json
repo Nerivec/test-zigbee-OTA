@@ -7031,5 +7031,18 @@
     "manufacturerCode": 5127,
     "sha512": "18aa9d1118fc0a1bf39a037036c9f6229a789a4c4e20f8403838ede9aa771ccfacbf0eff8ca1b52b265f564a4f555613264556f9e1a1884a6f1fd932dc4e4478",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "sonoff_router.ota",
+    "fileVersion": 2,
+    "fileSize": 283674,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Aurora/sonoff_router.ota",
+    "imageType": 65534,
+    "manufacturerCode": 4897,
+    "sha512": "92ce21a8f3bac3d1be2cf8ed3ce6f12b03dd22c0b38993eb8fcb4475be0de7811c9e10f6305724b559ed25638c00b4f846d3bb0e77051cc623471769d74e2f92",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "SONOFF"
+    ]
   }
 ]
